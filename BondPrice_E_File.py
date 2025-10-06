@@ -1,4 +1,4 @@
-def get_bond_price_E(face,couponRate,m,yc):
+def getBondPrice_E(face,couponRate,m,yc):
   pvcfsum=0
   for t in range(1,m+1):
     if t==m:
